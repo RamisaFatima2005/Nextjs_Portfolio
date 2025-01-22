@@ -21,7 +21,7 @@ const ContactMe = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            https://github.com/dashboard
+            https://github.com/RamisaFatima2005?tab=repositories
           </a>
         </div>
         {/* LinkedIn */}
