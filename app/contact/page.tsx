@@ -11,7 +11,7 @@ const ContactMe = () => {
         </p>
       </div>
 
-      <div className="grid grid-cols-2 gap-6 max-w-4xl mx-auto pt-12">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6 max-w-4xl mx-auto pt-12">
         {/* GitHub */}
         <div className="flex items-center">
           <Image src="/github.webp" alt="GitHub" width={64} height={64} className="mr-4" />
