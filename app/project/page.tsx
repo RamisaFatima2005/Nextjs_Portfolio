@@ -25,7 +25,7 @@ const Projects = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Live Demo
+            View
           </a>
         </div>
         {/* Number Guessing Game */}
@@ -37,7 +37,7 @@ const Projects = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Live Demo
+            View
           </a>
         </div>
         {/* ATM */}
@@ -49,7 +49,7 @@ const Projects = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Live Demo
+            View
           </a>
         </div>
         {/* Todo List */}
@@ -61,7 +61,7 @@ const Projects = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Live Demo
+            View
           </a>
         </div>
         {/* Word Counter */}
@@ -73,7 +73,7 @@ const Projects = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Live Demo
+            View
           </a>
         </div>
         {/* Countdown Timer */}
@@ -85,7 +85,7 @@ const Projects = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Live Demo
+            View
           </a>
         </div>
         {/* Adventure Game */}
@@ -97,7 +97,7 @@ const Projects = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-           Live Demo
+           View
           </a>
         </div>
         {/* OOP Bank */}
@@ -109,7 +109,7 @@ const Projects = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Live Demo
+            View
           </a>
         </div>
       </div>
