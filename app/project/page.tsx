@@ -15,9 +15,9 @@ const Projects = () => {
           <br />showcasing my skills.
         </p>
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4 gap-6 max-w-7xl mx-auto px-4 sm:px-8">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-4xl mx-auto px-4 sm:px-8">
         {/* Calculator */}
-        <div className="flex items-center justify-center">
+        <div className="flex items-center">
           <Image src="/calculator.jpeg" alt="BMI Calculator" width={64} height={64} className="mr-4 rounded-lg" />
           <a
             href="https://www.npmjs.com/package/calc_bmi-calculator"
@@ -25,11 +25,11 @@ const Projects = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            https://www.npmjs.com/package/calc_bmi-calculator
+            Live Demo
           </a>
         </div>
         {/* Number Guessing Game */}
-        <div className="flex items-center justify-center">
+        <div className="flex items-center">
           <Image src="/numguess.png" alt="Guess Number Game" width={64} height={64} className="mr-4 rounded-lg" />
           <a
             href="https://www.npmjs.com/package/play_num_guess_game"
@@ -37,11 +37,11 @@ const Projects = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            https://www.npmjs.com/package/play_num_guess_game
+            Live Demo
           </a>
         </div>
         {/* ATM */}
-        <div className="flex items-center justify-center">
+        <div className="flex items-center">
           <Image src="/ATM.jpg" alt="ATM Machine" width={64} height={64} className="mr-4 rounded-lg" />
           <a
             href="https://www.npmjs.com/package/cash-amount-atm_machine"
@@ -49,11 +49,11 @@ const Projects = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            https://www.npmjs.com/package/cash-amount-atm_machine
+            Live Demo
           </a>
         </div>
         {/* Todo List */}
-        <div className="flex items-center justify-center">
+        <div className="flex items-center">
           <Image src="/Todo.jpeg" alt="To-Do List" width={64} height={64} className="mr-4 rounded-lg" />
           <a
             href="https://www.npmjs.com/package/your_own_todo_list"
@@ -61,11 +61,11 @@ const Projects = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            https://www.npmjs.com/package/your_own_todo_list
+            Live Demo
           </a>
         </div>
         {/* Word Counter */}
-        <div className="flex items-center justify-center">
+        <div className="flex items-center">
           <Image src="/Wordcounter.jpeg" alt="Word Counter" width={64} height={64} className="mr-4 rounded-lg" />
           <a
             href="https://www.npmjs.com/package/fta_word_counter"
@@ -73,11 +73,11 @@ const Projects = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            https://www.npmjs.com/package/fta_word_counter
+            Live Demo
           </a>
         </div>
         {/* Countdown Timer */}
-        <div className="flex items-center justify-center">
+        <div className="flex items-center">
           <Image src="/countdowntimer.png" alt="Countdown Timer" width={64} height={64} className="mr-4 rounded-lg" />
           <a
             href="https://www.npmjs.com/package/nr_countdown_timer"
@@ -85,11 +85,11 @@ const Projects = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            https://www.npmjs.com/package/nr_countdown_timer
+            Live Demo
           </a>
         </div>
         {/* Adventure Game */}
-        <div className="flex items-center justify-center">
+        <div className="flex items-center">
           <Image src="/advntr.jpeg" alt="Adventure Game" width={64} height={64} className="mr-4 rounded-lg" />
           <a
             href="https://www.npmjs.com/package/tf_adventure_game"
@@ -97,11 +97,11 @@ const Projects = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            https://www.npmjs.com/package/tf_adventure_game
+           Live Demo
           </a>
         </div>
         {/* OOP Bank */}
-        <div className="flex items-center justify-center">
+        <div className="flex items-center">
           <Image src="/oopbank.jpeg" alt="OOP Bank" width={64} height={64} className="mr-4 rounded-lg" />
           <a
             href="https://www.npmjs.com/package/ra_oop_bank"
@@ -109,7 +109,7 @@ const Projects = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            https://www.npmjs.com/package/ra_oop_bank
+            Live Demo
           </a>
         </div>
       </div>
