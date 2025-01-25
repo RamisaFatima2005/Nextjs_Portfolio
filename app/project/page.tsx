@@ -15,7 +15,7 @@ const Projects = () => {
           <br />showcasing my skills.
         </p>
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 max-w-7xl mx-auto px-4 sm:px-8">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4 gap-6 max-w-7xl mx-auto px-4 sm:px-8">
         {/* Calculator */}
         <div className="flex items-center justify-center">
           <Image src="/calculator.jpeg" alt="BMI Calculator" width={64} height={64} className="mr-4 rounded-lg" />
