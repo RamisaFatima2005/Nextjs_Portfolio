@@ -4,7 +4,7 @@ import Image from 'next/image';
 export default function About() {
   return (
     <>
-      <div className='bg-black text-white'>
+      <div className='bg-black text-white min-h-screen'>
         {/* About Section */}
         <div className="p-8 sm:p-16 md:p-28 flex flex-col md:flex-row items-center md:items-start justify-between">
           
