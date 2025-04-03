@@ -1,120 +1,29 @@
-import React from 'react'
-import Image from 'next/image';
+import React from "react";
+import Link from "next/link";
 
-const Projects = () => {
+const ProjectsMainPage = () => {
   return (
-    <div className="bg-black text-white py-10">
-      <div className="text-center">
-        <h1 className="text-3xl sm:text-4xl md:text-5xl flex justify-start text-white pl-8 sm:pl-16 md:pl-28">
-          <b><i>Projects</i></b>
-        </h1>
-        <p className="text-lg sm:text-xl mb-8">
-          Command-Line Interface (CLI) Projects
-          <br />
-          Below are some of the CLI-based projects I&apos;ve developed, 
-          <br />showcasing my skills.
-        </p>
-      </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-4xl mx-auto px-4 sm:px-8">
-        {/* Calculator */}
-        <div className="flex items-center">
-          <Image src="/calculator.jpeg" alt="BMI Calculator" width={64} height={64} className="mr-4 rounded-lg" />
-          <a
-            href="https://www.npmjs.com/package/calc_bmi-calculator"
-            className="text-blue-400 hover:text-blue-600 underline"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            View
-          </a>
-        </div>
-        {/* Number Guessing Game */}
-        <div className="flex items-center">
-          <Image src="/numguess.png" alt="Guess Number Game" width={64} height={64} className="mr-4 rounded-lg" />
-          <a
-            href="https://www.npmjs.com/package/play_num_guess_game"
-            className="text-blue-400 hover:text-blue-600 underline"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            View
-          </a>
-        </div>
-        {/* ATM */}
-        <div className="flex items-center">
-          <Image src="/ATM.jpg" alt="ATM Machine" width={64} height={64} className="mr-4 rounded-lg" />
-          <a
-            href="https://www.npmjs.com/package/cash-amount-atm_machine"
-            className="text-blue-400 hover:text-blue-600 underline"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            View
-          </a>
-        </div>
-        {/* Todo List */}
-        <div className="flex items-center">
-          <Image src="/Todo.jpeg" alt="To-Do List" width={64} height={64} className="mr-4 rounded-lg" />
-          <a
-            href="https://www.npmjs.com/package/your_own_todo_list"
-            className="text-blue-400 hover:text-blue-600 underline"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            View
-          </a>
-        </div>
-        {/* Word Counter */}
-        <div className="flex items-center">
-          <Image src="/Wordcounter.jpeg" alt="Word Counter" width={64} height={64} className="mr-4 rounded-lg" />
-          <a
-            href="https://www.npmjs.com/package/fta_word_counter"
-            className="text-blue-400 hover:text-blue-600 underline"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            View
-          </a>
-        </div>
-        {/* Countdown Timer */}
-        <div className="flex items-center">
-          <Image src="/countdowntimer.png" alt="Countdown Timer" width={64} height={64} className="mr-4 rounded-lg" />
-          <a
-            href="https://www.npmjs.com/package/nr_countdown_timer"
-            className="text-blue-400 hover:text-blue-600 underline"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            View
-          </a>
-        </div>
-        {/* Adventure Game */}
-        <div className="flex items-center">
-          <Image src="/advntr.jpeg" alt="Adventure Game" width={64} height={64} className="mr-4 rounded-lg" />
-          <a
-            href="https://www.npmjs.com/package/tf_adventure_game"
-            className="text-blue-400 hover:text-blue-600 underline"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-           View
-          </a>
-        </div>
-        {/* OOP Bank */}
-        <div className="flex items-center">
-          <Image src="/oopbank.jpeg" alt="OOP Bank" width={64} height={64} className="mr-4 rounded-lg" />
-          <a
-            href="https://www.npmjs.com/package/ra_oop_bank"
-            className="text-blue-400 hover:text-blue-600 underline"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            View
-          </a>
-        </div>
+    <div className="min-h-screen bg-black flex flex-col items-center justify-center text-white p-6">
+      <h1 className="text-4xl font-bold mb-6">My Projects</h1>
+      <div className="grid md:grid-cols-3 gap-6 text-center">
+        <Link href="/nextjs_projects">
+          <div className="bg-gray-800 p-6 rounded-lg cursor-pointer hover:bg-gray-700 transition">
+            <h2 className="text-2xl font-semibold">Next.js Projects</h2>
+          </div>
+        </Link>
+        <Link href="/python_projects">
+          <div className="bg-gray-800 p-6 rounded-lg cursor-pointer hover:bg-gray-700 transition">
+            <h2 className="text-2xl font-semibold">Python Projects</h2>
+          </div>
+        </Link>
+        <Link href="/cli_projects">
+          <div className="bg-gray-800 p-6 rounded-lg cursor-pointer hover:bg-gray-700 transition">
+            <h2 className="text-2xl font-semibold">CLI Projects</h2>
+          </div>
+        </Link>
       </div>
     </div>
   );
 };
 
-export default Projects;
+export default ProjectsMainPage;
