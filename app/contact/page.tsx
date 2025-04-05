@@ -16,7 +16,7 @@ const ContactMe = () => {
         <div className="flex items-center">
           <Image src="/github.webp" alt="GitHub" width={64} height={64} className="mr-4" />
           <a
-            href="https://github.com/dashboard"
+            href="https://github.com/RamisaFatima2005?tab=repositories"
             className="text-blue-400 hover:text-blue-600 underline"
             target="_blank"
             rel="noopener noreferrer"
