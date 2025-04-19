@@ -6,7 +6,7 @@ const ProjectsMainPage = () => {
     <div className="min-h-screen bg-black flex flex-col items-center justify-center text-white p-6">
       <h1 className="text-4xl font-bold mb-6">My Projects</h1>
       <div className="grid md:grid-cols-3 gap-6 text-center">
-        <Link href="/nextjs_projects">
+        <Link href="/nextjs_projects/page.tsx">
           <div className="bg-gray-800 p-6 rounded-lg cursor-pointer hover:bg-gray-700 transition">
             <h2 className="text-2xl font-semibold">Next.js Projects</h2>
           </div>
