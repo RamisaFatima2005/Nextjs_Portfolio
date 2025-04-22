@@ -1,7 +1,7 @@
 import React from 'react'
 import Home from './home/page'
 import About from './about/page'
-import Project from './projects/page'
+import ProjectsMainPage from './project/page'
 import ContactMe from './contact/page'
 
 function page() {
@@ -12,7 +12,7 @@ function page() {
     <hr className="border-gray-400 my-4" />
     <About/>
     <hr className="border-gray-400 my-4" />
-    <Project/>
+    <ProjectsMainPage/>
     <hr className="border-gray-400 my-4" />
     <ContactMe/>
     </div>
