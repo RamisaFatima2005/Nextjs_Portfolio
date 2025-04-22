@@ -1,7 +1,7 @@
 import React from 'react'
 import Home from './home/page'
 import About from './about/page'
-import Project from './project/page'
+import Project from './projects/page'
 import ContactMe from './contact/page'
 
 function page() {
